@@ -1,0 +1,64 @@
+.hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    &_title {
+       
+        font-family: 'Caveat Brush';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 38px;
+            text-align: center;
+
+            color: $main-color;
+    }
+    &_btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+       
+        width: 145px;
+        height: 40px;
+        border-radius: 25px;
+
+        font-family: 'Caveat Brush';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;           
+        text-align: center;
+
+        color: $white-color;
+        background-color: $btn-color;
+    }
+    &_item {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &_svg {
+        width: 16px;
+        height: 16px;
+    }
+    &_list {
+        &:not(:last-child){
+            margin-right: 16px;
+        }
+   
+    }
+    &_logo:hover, &_logo:focus {
+        fill: $white-color;
+    }
+    &_text {
+        margin-top: 8px;
+        
+        font-size: 16px;
+        line-height: 1.2px;
+        
+        text-align: center;
+        color: $main-color;
+    }
+
+}
+

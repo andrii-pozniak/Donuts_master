@@ -1,0 +1,26 @@
+.header {
+    padding-left: 20px;
+        padding-right: 20px;
+    &_btn {
+        width: 30px;
+        height: 16px;
+        margin-left: auto;
+        
+        padding: 0;
+        border: 0;
+
+        &-svg {
+            width: 30px;
+            height: 16px;
+            fill: $main-color;
+        }
+    }
+    &_logo {
+        fill: $main-color;
+    }
+    &_container {
+        display: flex;
+    }
+
+
+}

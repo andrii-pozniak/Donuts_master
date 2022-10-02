@@ -1,2 +1,10 @@
-@import './common';
+// @import './common';
 @import './example';
+@import './util/common';
+@import './util/container';
+@import './util/reset';
+@import './util/var';
+@import './component/header';
+@import './component/hero';
+@import './component/program';
+@import './component/about';

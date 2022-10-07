@@ -1,0 +1,63 @@
+.modal {
+    position: fixed;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 100;
+    width: 100%;
+
+    background-color: rgba(254, 243, 228, 0.9);
+
+    &_container {
+        display: flex;
+        margin-bottom: 40px;
+
+    };
+
+    &_logo {
+        fill: $main-color;
+        width: 190px;
+        height: 85px;
+        
+    
+    };
+    &_btn-svg {
+       width: 18px;
+       height: 18px;
+       
+       padding: 0;
+       border:0;
+    };
+    &_list {
+        text-align: center;
+    };
+    
+    &_item {
+
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 45px;
+        }
+
+    };
+    &_btn {
+        margin: 0;
+        padding: 0;
+
+        background-color: transparent;
+        width: 18px;
+        height: 18px;
+        // margin-left: auto;
+
+    };
+
+}
+.is_hidden {
+    opacity: 0;
+}
+
+
